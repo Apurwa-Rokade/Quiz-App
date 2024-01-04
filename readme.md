@@ -1,7 +1,7 @@
 # Quiz Application
 ![output](./output/2.png)
 This quiz application is a simple web-based quiz built using HTML, Tailwind CSS for styling, and JavaScript for functionality. It presents a set of multiple-choice questions and allows users to select answers, providing instant feedback on correctness and updating the score accordingly.
-
+ # Link 
 [Take the Quiz Now](https://apurwa-rokade.github.io/Quiz-App/)
 ## Features
 
