@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black h-screen ">
+   <!-- box for quiz questions -->
+   <div class="flex place-content-center">
+    <div class="bg-blue-400 w-5/12 p-11 rounded-3xl m-10">
+        <div class="border-b-2 pb-5 ">
+            <h1 class="text-3xl  font-bold ">Let's Play Quiz</h1>
+        </div>
+        <h2 id="question" class="text-2xl font-bold pt-6">Questions goes here</h2>
+    
+        <div id="answer-button" class="flex flex-col pt-4">
+      <button class="text-xl  hover:bg-yellow-300 hover:text-white cursor-pointer rounded-md shadow-sm w[100%] m-2 p-2 bg-slate-200 text-red-700 ">Ans 1</button>
+      <button class="text-xl hover:bg-black hover:text-white cursor-pointer rounded-md shadow-sm w[100%] m-2 p-2 bg-slate-200 text-red-700 ">Ans 2</button>
+      <button class="text-xl hover:bg-black hover:text-white cursor-pointer rounded-md shadow-sm w[100%] m-2 p-2 bg-slate-200 text-red-700 ">Ans 3</button>
+      <button class="text-xl  hover:bg-black hover:text-white cursor-pointer rounded-md shadow-sm w[100%] m-2 p-2 bg-slate-200 text-red-700 ">Ans 4</button>
+        </div >
+    <div  class="grid place-content-center ">
+        <button id="next-button" class="bg-blue-700 w-36  hover:bg-lime-600 text-white font-semibold p-2 m-3 cursor-pointer">Next</button>
+    </div>
+       </div>
+   </div>
+   
+   <script src="./Script.js"></script>
+</body>
+</html>
